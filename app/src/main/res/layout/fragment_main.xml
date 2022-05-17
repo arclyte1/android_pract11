@@ -18,13 +18,75 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="Button"
+    <com.google.android.material.divider.MaterialDivider
+        android:id="@+id/materialDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pickImageButton" />
+
+    <Button
+        android:id="@+id/selectHtmlButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/pick_html"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toStartOf="@+id/openUrlButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/urlEditText" />
+
+    <EditText
+        android:id="@+id/urlEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/url"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialDivider" />
+
+    <Button
+        android:id="@+id/openUrlButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/open_by_url"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/selectHtmlButton"
+        app:layout_constraintTop_toBottomOf="@+id/urlEditText" />
+
+    <com.google.android.material.divider.MaterialDivider
+        android:id="@+id/materialDivider2"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/openUrlButton"  />
+
+    <Button
+        android:id="@+id/pickPdfButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/pick_pdf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialDivider2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

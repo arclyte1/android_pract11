@@ -13,10 +13,26 @@
         <action
             android:id="@+id/action_mainFragment_to_imagePrinterFragment"
             app:destination="@id/imagePrinterFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_webPrinterFragment"
+            app:destination="@id/webPrinterFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_PDFPrinterFragment"
+            app:destination="@id/PDFPrinterFragment" />
     </fragment>
     <fragment
         android:id="@+id/imagePrinterFragment"
         android:name="com.example.pract11.ImagePrinterFragment"
         android:label="fragment_image_printer"
         tools:layout="@layout/fragment_image_printer" />
+    <fragment
+        android:id="@+id/webPrinterFragment"
+        android:name="com.example.pract11.WebPrinterFragment"
+        android:label="fragment_web_printer"
+        tools:layout="@layout/fragment_web_printer" />
+    <fragment
+        android:id="@+id/PDFPrinterFragment"
+        android:name="com.example.pract11.PDFPrinterFragment"
+        android:label="fragment_p_d_f_printer"
+        tools:layout="@layout/fragment_p_d_f_printer" />
 </navigation>

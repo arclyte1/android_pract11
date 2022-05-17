@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Konstantin/Desktop/android_pract11/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Konstantin/Desktop/android_pract11/app/src/main/res/layout/fragment_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Konstantin/Desktop/android_pract11/app/src/main/res/layout/fragment_p_d_f_printer.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/Konstantin/Desktop/android_pract11/app/src/main/res/layout/fragment_web_printer.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Student-13/AndroidStudioProjects/pract112/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/Student-13/AndroidStudioProjects/pract112/app/src/main/res/layout/fragment_image_printer.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Student-13/AndroidStudioProjects/pract112/app/src/main/res/layout/fragment_main.xml" value="0.36666666666666664" />

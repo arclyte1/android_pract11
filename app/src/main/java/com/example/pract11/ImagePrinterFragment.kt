@@ -24,7 +24,7 @@ class ImagePrinterFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         binding = FragmentImagePrinterBinding.bind(view)
 
-        val uri = Uri.parse(savedInstanceState!!.getString("uri"))
+        val uri = Uri.parse(arguments?.getString("uri"))
 
         binding.imageView.setImageURI(uri)
 

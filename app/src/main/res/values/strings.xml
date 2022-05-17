@@ -4,4 +4,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="pick_image">Pick image</string>
     <string name="print">Print</string>
+    <string name="url">Url</string>
+    <string name="pick_html">Pick HTML</string>
+    <string name="open_by_url">Open by URL</string>
+    <string name="pick_pdf">Pick PDF</string>
 </resources>
